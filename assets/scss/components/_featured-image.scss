@@ -5,7 +5,7 @@
 		background-repeat: no-repeat;
 		margin: 0 0 rem-calc(32);
 		position: relative;
-		height: rem-calc(200);
+		height: rem-calc(320);
 		}
 
 		.no-featured-image-set {
@@ -15,6 +15,6 @@
 
 @include breakpoint(medium) {
 	#featured-hero {
-		height: rem-calc(400);
+		height: rem-calc(500);
 		}
 }

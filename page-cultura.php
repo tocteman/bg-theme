@@ -39,11 +39,28 @@ get_header(); ?>
 
 	
 <div class="row small-up-1 medium-up-2 large-up-3 medium-collapse large-collapse">
+<?php $postcount=0; ?>
 	<?php if ( have_posts() ) : ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+	<div class="column">
+		<div class="callout transparente">
+			<hr>
+			<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('archivo-thumb'); ?>
+			<div class="pads">
+				<div class="titulo-noticias"><?php the_title(); ?></div></a>
+			</div>			
+			<em><?php the_category(', ' );?></em>
+			<div class="micro-pads">
+			<?php the_excerpt();?>
+			</div>
+		</div>
+	</div>
+	<?php $postcount ++; ?>
+	<?php if ( $postcount == 5) {
+			echo "VAMOS HIJUEPUTA!";
+			} ?>
 		<?php endwhile; ?>
 
 		<?php else : ?>

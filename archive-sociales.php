@@ -29,7 +29,7 @@ get_header(); ?>
 
 	<header>
 	<div class="column row">
-	<h1><span class="titulo"><?php the_archive_title();?></span></h1>
+	<h1><span class="titulo">BGENTE</span></h1>
 	</div>
 
 	</header>
@@ -43,7 +43,18 @@ get_header(); ?>
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
-			<?php get_template_part( 'template-parts/content', get_post_format() ); ?>
+		<div class="column">
+			<div class="callout transparente">
+			<hr>
+				<a href="<?php the_permalink(); ?>"><?php the_post_thumbnail('archivo-thumb'); ?>
+				<div class="pads">
+				<div class="titulo-noticias"><?php the_title(); ?></div></a>
+				</div>
+				<div class="micro-pads">
+				<?php the_excerpt();?>
+				</div>
+			</div>
+		</div>
 		<?php endwhile; ?>
 
 		<?php else : ?>

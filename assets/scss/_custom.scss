@@ -1,0 +1,591 @@
+* {
+	outline: none;
+}
+
+.margentitulo {
+	vertical-align: middle;
+	padding-top: 2em;
+	padding-bottom: 0em;
+}
+
+.margentitulodos{
+	vertical-align: middle;
+	padding-top: 3rem;
+	padding-bottom: 0em;
+}
+
+.pads {
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+}
+
+.super-pads {
+	padding-top:1rem;
+	padding-bottom: 1rem;
+}
+
+.ultra-pads {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+#post-nav {
+	margin-left: 0;
+	margin-right:0;
+}
+.pads-arriba {
+	padding-top: 0.5rem;
+}
+
+.micro-pads {
+	padding-top: 0.25rem;
+	padding-bottom: 0.25rem;
+}
+
+span.titulo {
+	color: #000000;
+	font-size:1.8em;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	line-height:0.5;
+	padding-bottom: 0rem;
+	margin-bottom: 0px;
+}
+
+span.titulo-blanco {
+	color: #ffffff;
+	font-size:1.8em;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	line-height:0.5;
+	padding-bottom: 0rem;
+	margin-bottom: 0px;
+}
+
+span.titulo-gris {
+	color: #e6e6e6;
+	font-size:1.8em;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	line-height:0.5;
+	padding-bottom: 0rem;
+	margin-bottom: 0px;
+}
+
+
+span.titulo-mundo{
+	color: #000;
+	font-family:"pragmatica-web", sans-serif;
+	font-size:1.8em;
+	font-weight:200;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	line-height:0.8;
+}
+
+span.subtitulo-mundo{
+	color:#525252;
+	font-family:"pragmatica-web", sans-serif;
+	font-size:1.2em;
+	font-weight:200;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	line-height:0.1;
+}
+
+.creditoslookbook {
+	padding-top:2em;
+}
+
+span.tituloshoot {
+	text-align: center;
+	color: #000000;
+	font-size:1.8em;
+	text-transform: uppercase;
+	letter-spacing: -0.07em;
+	line-height:0.1;
+	margin-top: 30px;
+}
+
+.ceropadding
+{
+	padding: 0;
+}
+
+span.subtitulo {
+	text-align: right;
+	color: #000000;
+	text-transform: lowercase;
+}
+
+
+.containtextogris {
+	padding-top: 4em;
+	padding-left: 2em;
+	padding-right: 2em;	
+}
+
+span.textogris {
+	text-transform: uppercase;
+	color: #525252;
+	line-height: 60%;
+	letter-spacing: -0.05em !important;
+}
+
+.wrapper {
+	width: 1150px;
+	max-width: 85%;
+	margin: auto;
+}
+
+.aver {
+	width: 100%;
+}
+
+.homelogo{
+line-height: 50px;
+padding-left:80px;
+display:inline-block;
+}
+
+.searchlogo{
+	line-height:50px;
+	padding-right:30px;
+	display:inline-block;
+}
+
+.searchlogomob{
+	line-height:50px;
+	padding-right:30px;
+	padding-left: 15px;
+	display:inline-block;
+}
+
+
+.homelogomobile{
+display:inline-block;
+padding-top: 5px;
+padding-left: 5px;
+}
+
+.top-bar{
+-webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.04);
+-moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.04);
+box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.04);
+}
+
+.title-bar{
+	background-color: #fff;
+	height: 50px;
+	-webkit-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.08);
+-moz-box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.08);
+box-shadow: 0px 2px 1px 0px rgba(0,0,0,0.08);
+}
+
+.title-bar-left .menu-icon{
+	color: #000;
+}
+
+.top-bar-left {
+	background-color: #ffffff;
+	height: 50px;
+	display: inline-block
+	}
+
+#site-navigation{
+	background-color:white;
+}
+
+.top-bar-left {
+	background-color: #fff;
+	height: 50px;
+	display: inline-block;
+	color: black;
+}
+
+.top-bar-right .menu a {
+	color: #8a8a8a;
+	background-color: #fff;
+	text-transform: lowercase;
+	font-weight: 300;
+}
+
+#offCanvas {
+	background-color: #fff;
+	padding: 10px;
+}
+
+#offCanvas li {
+	list-style: none;
+}
+
+#offCanvas a {
+	color: #525252;
+	line-height:121%;
+	font-weight: 300;
+	text-transform: lowercase;
+}
+
+#offCanvas a:hover {
+	text-decoration: underline;
+	color: #000000;
+}
+
+#offCanvas .active > a{
+	background-color: #ffffff;
+}
+
+.toggle {
+   
+   border: medium none;
+   color: #FFFFFF;
+   cursor: pointer;
+   display: block;
+   height: 40px;
+   position: absolute;
+   right: 0;
+   width: 50px;
+}
+
+span.navbars{
+	color:black;
+	padding: 5px;
+    cursor: pointer;
+}
+
+#correccionessearch {
+	line-height:50px;
+	display:inline-block;
+}
+
+.formulario-search {
+	padding-left:30px;
+}
+
+.arribita{
+	display:inline-block;
+	line-height:60px;
+}
+
+.ubicacion{
+	padding-left: 17px;
+	color:#fff;
+	font-size:0.9rem;
+}
+
+.vitruvio {
+	background-image: url("http://www.bgmagazine.com/wp-content/uploads/2016/08/vitruviofooter.png");
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 220px;
+	margin: 0 auto;
+}
+
+
+#fila-uno a {
+	color: rgba(255,255,255,0.4);
+	font-size:90%;
+}
+
+#fila-dos a {
+	color: rgba(255,255,255,0.8);
+	font-size:90%;
+}
+
+#fila-uno a:hover {
+	text-decoration: underline;
+	color: rgba(255,255,255,0.6);
+}
+
+#fila-dos a:hover {
+	text-decoration: underline;
+	color: rgba(255,255,255,1);
+}
+
+ .js-off-canvas-exit {
+ 	background: rgba (0, 0, 0, 0.5); 
+ }
+
+ .off-canvas-content {
+ 	box-shadow: none !important;
+ }
+
+ .slb_theme_slb_default .slb_container {
+  border-radius: 0px !important;
+}
+#slb_viewer_wrap .slb_theme_slb_baseline .slb_container{
+	padding: 0px !important;
+}
+
+.rpwe-block a {
+	text-transform: uppercase;
+	font-size: 1rem;
+}
+
+.pop-layout-v {
+	margin-bottom: 50px;
+}
+
+span.pop-title {
+	font-family: "nimbus-sans", sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 0.9rem !important;
+	letter-spacing:-0.02em;
+	text-transform: lowercase;
+}
+
+.pop-widget-tabs{
+	background: #e6e6e6;
+	color: #8a8a8a;
+}
+
+.distancia-izquierda {
+	padding-left: 15px !important;
+}
+.pop-widget-tabs .pop-widget-tabs-2{
+	font-family: "pragmatica-web", sans-serif !important;
+	font-weight:200 !important;
+	text-transform: lowercase;
+	letter-spacing: -0.18em;
+}
+
+.pop-layout-v img{
+	max-width:65px !important;
+}
+
+.pop-inside li {
+	border-bottom: solid 1px #e6e6e6 !important;
+}
+.pop-widget-tabs li a {
+	padding: 3px 9px 3px 9px !important;
+	border: 0px !important;
+	font-family: "nimbus-sans", sans-serif !important;
+	font-weight: bold !important;
+	text-transform: lowercase;
+	font-size: 1.1rem !important;
+}
+
+.pop-inside {
+	border: 0px !important;
+}
+
+.letra-chica {
+	font-size: 0.6rem; 
+}
+
+.creditos-fotos {
+	text-align: center;
+	max-width: 90%; 
+	font-size: 0.9rem;
+}
+
+.titulo-archivo {
+	text-transform: uppercase;
+	clear: both;
+	letter-spacing: -0.07em;
+	line-height: 1.2;
+	color: #000;
+}
+
+.titulo-noticias {
+	text-transform: lowercase;
+	font-weight:bold;
+	letter-spacing: -0.018em;
+	line-height: 1;
+}
+
+
+.breadcrumbs {
+	text-transform: lowercase;
+}
+
+.breadcrumbs a:hover {
+	color: #000;
+}
+
+.transparente {
+	border-color: #fff;
+}
+
+
+.soliloquy-container .soliloquy-item .soliloquy-image { 
+  max-width: 60% !important; 
+  margin: 0 !important; 
+}
+.soliloquy-container .soliloquy-caption { 
+  max-width: 40% !important; 
+  left: auto !important; 
+  bottom: auto !important; 
+  right: 0 !important; 
+  top: 0 !important; 
+  
+
+}
+
+.soliloquy-container .soliloquy-prev,
+.soliloquy-container .soliloquy-next {
+  background-color: #cacaca;
+  border-radius: 999em;
+  border: 2px solid white;
+  width: 34px;
+  height: 35px;
+  
+}
+
+.soliloquy-container .soliloquy-next {
+right: -40px !important;
+}
+
+.soliloquy-container .soliloquy-prev {
+left: -40px !important;
+}
+
+
+
+.soliloquy-container .soliloquy-caption .soliloquy-caption-inside{
+	background: none !important;
+	text-shadow: none !important;
+	color: #000 !important;
+	text-align: left !important;
+}
+
+.soliloquy-container .soliloquy-caption.soliloquy-caption-right{
+	width:38% !important;
+}
+
+@media screen and (max-width: 700px) {
+  .soliloquy-container { 
+    max-height: none !important; 
+     	max-width: 80% !important;
+  	margin: 0 auto;
+  }
+  .soliloquy-viewport { 
+    height: auto !important; 
+  }
+  .soliloquy-container .soliloquy-caption { 
+    position: relative !important; 
+
+  }
+  .soliloquy-container .soliloquy-item .soliloquy-image {
+  	max-width: 100% !important;
+  	margin: 0 auto;
+  }
+
+  .soliloquy-container .soliloquy-caption.soliloquy-caption-right{
+    max-width:100% !important;
+    width:100% !important;
+  }
+} 
+
+.rp4wp_component_title a {
+	text-transform: lowercase;
+}
+
+ul.rp4wp-posts-list {
+	margin-left:0rem !important;
+}
+
+#footer-container {
+	margin-top:0em !important;
+}
+
+
+.top-bar input {
+	max-width:100px;
+}
+
+.italicas {
+	font-style : italic;
+}
+
+.boton-footer{
+	color: #cacaca !important;
+}
+
+.boton-footer a:hover {
+	color: #fff !important;
+}
+
+.breadcrumbs {
+	margin: 0 0 0.3rem 0;
+}
+
+.home-pads {
+	padding-bottom: 3rem;
+
+}
+.imagen-centrada {
+	display:block;
+	margin: 0 auto;
+}
+
+@include breakpoint(small) {
+	#publicidad {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		margin: 0 0 rem-calc(32);
+		position: relative;
+		height: rem-calc(180);
+		}
+
+		.no-featured-image-set {
+			height: rem-calc(16) !important;
+		}
+}
+
+@include breakpoint(medium) {
+	#publicidad {
+		height: rem-calc(300);
+		}
+}
+
+@include breakpoint(small) {
+	#publicidad-abajo {
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		position: relative;
+		height: rem-calc(180);
+		}
+
+		.no-featured-image-set {
+			height: rem-calc(16) !important;
+		}
+}
+
+@include breakpoint(medium) {
+	#publicidad-abajo {
+		height: rem-calc(300);
+		}
+}
+
+#page-home {
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:3rem;
+}
+
+.titulo-mediano{
+	text-transform: lowercase;
+	letter-spacing: -0.03em;
+	letter-spacing: -0.018em;
+	line-height: 1;
+	font-weight:400;
+}
+
+.el-cuerpo {
+	background: url('http://www.bgmagazine.com/wp-content/uploads/2016/10/estrellado.jpg') no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;  
+}
+
+.gradiente-prairie {
+background: #cacaca; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#262626, #0d0d0d); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#262626, #0d0d0d); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#262626, #0d0d0d); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#262626, #0d0d0d); /* Standard syntax */
+}

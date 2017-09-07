@@ -25,8 +25,8 @@
 @include foundation-global-styles;
 
 // Individual foundation components
-@include foundation-grid;
-// @include foundation-flex-grid;
+//@include foundation-grid;
+@include foundation-flex-grid;
 @include foundation-typography;
 @include foundation-button;
 @include foundation-forms;
@@ -48,7 +48,7 @@
 @include foundation-off-canvas;
 @include foundation-orbit;
 @include foundation-pagination;
-@include foundation-progress-bar;
+// @include foundation-progress-bar;
 @include foundation-progress-element;
 @include foundation-meter-element;
 @include foundation-slider;
@@ -62,7 +62,7 @@
 @include foundation-tooltip;
 @include foundation-top-bar;
 @include foundation-visibility-classes;
-@include foundation-float-classes;
+//@include foundation-float-classes;
 @include foundation-menu-icon;
 // @include foundation-flex-classes;
 
@@ -72,8 +72,9 @@
 
 /*
   My custom styles:
-  Add your scss files below to structure your project styles
+ Add your scss files below to structure your project styles
 */
+@import"custom";
 
 // Modules
 @import "modules/navigation";
@@ -85,6 +86,7 @@
 @import "components/featured-image";
 @import "components/dividers";
 @import "components/links";
+
 
 // Templates
 @import "templates/front";

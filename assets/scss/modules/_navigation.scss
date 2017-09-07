@@ -1,58 +1,40 @@
 /* Navigation breakpoints */
-
-.desktop-menu, .top-bar-left {
-  @include show-for(medium);
+.desktop-menu, .top-bar {
+  @include show-for(large);
 }
 
 #mobile-menu, .title-bar {
-  @include hide-for(medium);
+  @include hide-for(large);
 }
 
-/* Mobile menu */
-
-.off-canvas {
- > ul.menu {
-    height: 100vh;
-    padding: 1rem;
-  }
-}
-
-.title-bar-title {
-  a {
-    font-size: 1rem;
-    color: #B9B9B9;
-  }
-}
 
 /* Tablet and desktop menu */
 .top-bar {
-
-  .menu .home a {
+   height: 50px;
+   background-color: #fff;
+}
+  .top-bar .menu a {
+    height: 50px;
+    color: #525252;
+    font-weight: 300;
     font-size: 1rem;
-    color: #B9B9B9;
-  }
-
-  .menu a {
-    height: 45px;
-    line-height: 45px;
-    color: #e6e6e6;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-weight: bold;
-    font-size: 0.8rem;
-    line-height: 1;
-
-    &:hover:not(.button) {
-      background-color: #2a2a2a;
     }
-  }
+  
+    .top-bar .menu a:hover {
+      text-decoration: underline;
+      color: black;
+    }
 
-  .menu>li:not(.menu-text)>a { padding: 1rem; }
-  .menu li:not(:last-child) { border-right: 1px solid #4e4e4e; }
+      .top-bar .menu .active > a {
+        font-weight: 700;
+        text-decoration: underline;
+        background-color: #fff;
+      }
+
+
+  .top-bar .menu>li:not(.menu-text)>a { padding: 1rem 1rem 1rem 1rem; }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
-    color: #e6e6e6;
     border: 0;
   }
 
@@ -65,4 +47,6 @@
       display: none;
     }
 
+.top-bar ul {
+  background-color: #fff;
 }
